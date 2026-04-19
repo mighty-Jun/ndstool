@@ -3,6 +3,8 @@ name: Build Cross-Platform ndstool
 on:
   push:
     branches: [ "AutoBuild" ]
+  pull_request:
+    branches: ["AutoBuild"]
   workflow_dispatch:
 
 jobs:
