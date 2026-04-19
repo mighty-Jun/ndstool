@@ -15,12 +15,6 @@ jobs:
           - os: windows-latest
             artifact_name: ndstool-windows
             bin_name: ndstool.exe
-          - os: ubuntu-latest
-            artifact_name: ndstool-linux
-            bin_name: ndstool
-          - os: macos-latest
-            artifact_name: ndstool-macos
-            bin_name: ndstool
 
     steps:
     - name: Checkout code
